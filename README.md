@@ -6,7 +6,7 @@ A deliberately vulnerable implementation of the Model Context Protocol (MCP) for
 
 ## Overview
 
-The Damn Vulnerable Model Context Protocol (DVMCP) is an educational project designed to demonstrate security vulnerabilities in MCP implementations. It contains 10 challenges of increasing difficulty that showcase different types of vulnerabilities and attack vectors.
+The Damn Vulnerable Model Context Protocol (DVMCP) is an educational project designed to demonstrate security vulnerabilities in MCP implementations. It contains 10 challenges of increasing difficulty that showcase different types of vulnerabilities and attack vectors. A deliberately vulnerable implementation of the Model Context Protocol (MCP) for educational purposes.
 
 
 This project is intended for security researchers, developers, and AI safety professionals to learn about potential security issues in MCP implementations and how to mitigate them.
