@@ -14,11 +14,12 @@ metadata:
         - job
 jobs:
   job1:
-    steps:
-      - run: echo "hello world"
-        uses: docker://golang:1.20.3-alpine3.17
-        name: Hello world
-        shell: sh
+    timeout-minutes: 4320
+    delegates: cloudbees-io/manual-approval/custom-job.yml@v1
+    with:
+      disallowLaunchByUser: false
+      notifyAllEligibleUsers: false
+      approvers: 19665a40-60d2-11ed-b20c-42010a83ae66
   Job1:
     needs: job1
     runs-on: linux
