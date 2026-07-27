@@ -19,7 +19,7 @@ jobs:
     with:
       disallowLaunchByUser: false
       notifyAllEligibleUsers: false
-      approvers: 19665a40-60d2-11ed-b20c-42010a83ae66
+      approvers: 19665a40-60d2-11ed-b20c-42010a83ae66,9157afb6-9594-11ee-9328-42010a83ae92
   Job1:
     needs: job1
     runs-on: linux
